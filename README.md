@@ -115,3 +115,9 @@ ssh -L 2019:localhost:2019 <remote-server> &
 # Add a WIP environment
 # {"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"add_wip_environment","arguments":{"project":"my-project","port":3000}}}
 ```
+
+---
+
+<p align="center">
+  Built with ❤️ by <a href="https://github.com/karti-ai">Karti AI</a>
+</p>
