@@ -52,3 +52,4 @@ __debug_bin
 # OS
 Thumbs.db
 .sisyphus/
+caddy-mcp-server

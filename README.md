@@ -78,6 +78,14 @@ ssh -L 2019:localhost:2019 server-1 &
 - `REVIEW_DOMAIN` - Domain for WIP review environments (default: `review.example.com`)
 
 ## Architecture
+### Input Validation (validators.go)
+The server includes comprehensive input validation to prevent security issues:
+- **Domain validation**: Ensures valid domain format
+- **Path validation**: Prevents directory traversal attacks
+- **Port validation**: Validates port ranges (1-65535)
+- **Header validation**: Validates HTTP header names
+
+
 
 - `client.go` - Caddy Admin API client
 - `server.go` - MCP server setup
